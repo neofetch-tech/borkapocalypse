@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://br80yrkfvn7ot"]
+
+[ext_resource type="Script" uid="uid://82pgta6c8pat" path="res://char_select.gd" id="1_47yjw"]
+
+[node name="CharSelect" type="Control" unique_id=1664106553]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_47yjw")
+metadata/_edit_use_anchors_ = true
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1588356229]
+layout_mode = 0
+offset_right = 1150.0
+offset_bottom = 649.0
+color = Color(0.4384758, 0.12042903, 0.113363944, 1)
+
+[node name="Label" type="Label" parent="." unique_id=2021774549]
+layout_mode = 0
+offset_left = 509.0
+offset_top = 170.0
+offset_right = 662.0
+offset_bottom = 194.0
+text = "SELECT CHARACTER"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1058612233]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -125.0
+offset_top = -67.0
+offset_right = 137.0
+offset_bottom = 45.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Arsen" type="Button" parent="VBoxContainer" unique_id=1972184731]
+layout_mode = 2
+text = "Arsen"
+
+[node name="Ivan" type="Button" parent="VBoxContainer" unique_id=2089143814]
+layout_mode = 2
+text = "Ivan"
+
+[node name="Ostash" type="Button" parent="VBoxContainer" unique_id=1476061584]
+layout_mode = 2
+text = "Ostash"
+
+[node name="Sonia" type="Button" parent="VBoxContainer" unique_id=1015947416]
+layout_mode = 2
+text = "Sonia"
+
+[node name="Nadya" type="Button" parent="VBoxContainer" unique_id=299436360]
+layout_mode = 2
+text = "Nadya"
+
+[node name="Ingra" type="Button" parent="VBoxContainer" unique_id=504238159]
+layout_mode = 2
+text = "Ingra"

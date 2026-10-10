@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://bk8ibk6quhyst"]
+
+[ext_resource type="Script" uid="uid://cpilqipj5k6kd" path="res://main_menu.gd" id="1_06t4h"]
+
+[node name="MainMenu" type="Control" unique_id=1882962711]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_06t4h")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=77893421]
+layout_mode = 0
+offset_top = 1.0
+offset_right = 1155.0
+offset_bottom = 649.0
+color = Color(0.8061364, 0.22233728, 0.24338031, 1)
+
+[node name="Label" type="Label" parent="." unique_id=866792755]
+layout_mode = 0
+offset_left = 462.0
+offset_top = 201.0
+offset_right = 728.0
+offset_bottom = 240.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = 7
+theme_override_constants/paragraph_spacing = 6
+theme_override_constants/shadow_offset_x = 5
+theme_override_constants/shadow_offset_y = 7
+theme_override_constants/outline_size = 3
+theme_override_constants/shadow_outline_size = 7
+theme_override_font_sizes/font_size = 28
+text = "BORKAPOCALYPSE"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=945170473]
+layout_mode = 0
+offset_left = 436.0
+offset_top = 271.0
+offset_right = 741.0
+offset_bottom = 374.0
+
+[node name="BtnPlay" type="Button" parent="VBoxContainer" unique_id=2061764332]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0.6363831, 0.17295465, 0.20634803, 1)
+text = "PLAY"
+
+[node name="BtnSettings" type="Button" parent="VBoxContainer" unique_id=1634972894]
+layout_mode = 2
+text = "SETTINGS"
+
+[node name="BtnExit" type="Button" parent="VBoxContainer" unique_id=2018387713]
+layout_mode = 2
+text = "EXIT"
