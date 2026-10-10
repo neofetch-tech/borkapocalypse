@@ -1,1 +1,3 @@
-# borkapocalypse
+# Borkapocalypse
+
+Game about a Bork
